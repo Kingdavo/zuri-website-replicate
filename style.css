@@ -1,0 +1,190 @@
+@font-face {
+  font-family: Averta;
+  src: url(./fonts/averta/AvertaDemoPECuttedDemo-Regular.otf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Averta, sans-serif;
+}
+
+a {
+  color: #e7332b;
+  text-decoration: none;
+}
+
+.bttn {
+  margin-top: 92px;
+}
+
+.button {
+  padding: 11px 28px;
+  border: 1px solid #e7332b;
+}
+
+.industry {
+  background-color: #e7332b;
+  color: #fff;
+  margin-right: 24px;
+}
+
+.industry:hover {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.experience {
+  background-color: #fff;
+  color: #e7332b;
+}
+
+.experience:hover {
+  background-color: #e7332b;
+  color: #fff;
+}
+
+.intro-info {
+  margin: 0, auto;
+  padding: 10px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.intro-info h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bolder;
+  color: #514949;
+  margin-bottom: 36px;
+}
+
+.intro-info p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+}
+
+.intro-section {
+  background-image: url(./images/hero-bg.svg);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-image {
+  margin: auto;
+  display: flex;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.zuri-team-heading {
+  font-size: medium;
+  color: #e7332b;
+  text-align: center;
+  font-weight: 100;
+}
+
+.mantra {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  color: #514949;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+  padding: 20px;
+  margin-top: 215px;
+}
+
+.program-box {
+  position: relative;
+  z-index: 1;
+}
+
+section.program {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.footer-container h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+}
+
+footer hr {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+}
+
+p {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 20%;
+  color: #514949;
+  font-weight: 900;
+}
+
+.contact p {
+  font-weight: 100;
+}
+
+
+@media (max-width: 768px) {
+  .program {
+    height: auto;
+  }
+
+  img.top-image {
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .intro-info h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .bttn {
+    margin-bottom: 50px;
+  }
+
+  button.button {
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+
+  h3.zuri-team-heading {
+    margin-top: 60px !important;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+
+  .footer-container h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
